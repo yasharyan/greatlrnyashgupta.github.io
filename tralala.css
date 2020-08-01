@@ -34,11 +34,9 @@ body {
     border-radius: 2px;
     border: 1px;
     background-color: rgba( 64, 144, 172, 0.65 );
-    padding: 4px;
-    padding-left: 10px;
-    padding-top: 8px;
-    padding-right: 8px;
-    margin-right: 8px;
+    padding: 8px;
+    margin: 0px 4px;
+    margin-right: 6px;
     width: fit-content;
 }
 .icon1:hover{
@@ -49,10 +47,9 @@ body {
     border: 1px;
     background-color: rgba( 64, 144, 172, 0.65 );
     padding: 4px;
-    padding-left: 10px;
+    padding-left: 6px;
     padding-top: 8px;
-    padding-right: 8px;
-    margin-right: 8px;
+    margin-right: 6px;
     width: max-content;
 }
 .icon2:hover{
