@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    right: 0px;
+    left: 0px;
+    margin-top: 30px;
+    padding: 70px 2px;
+    padding-bottom: 0px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#id2-1{
+    margin: 8px;
+    padding: 4px;
+    flex-basis: 235px;
+    display: inline;
+}
+#id2-2{
+    margin: 8px;
+    padding: 4px;
+    flex-basis: 235px;
+    display: inline;
+    flex-direction: row;
+}
+
+.class3{
+    border: 1px lightgray;
+    border-radius: 4px;
+    background-color: lightgray;
+    flex-basis: 235px;
+    flex-shrink: 0;
+    max-height: 100%;
+    overflow: hidden;
+    font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: #555;
+    overflow-y: hidden;
+    align-items: baseline;
+    opacity: .95;
+}
+
+.id{
+    display: flex; 
+    justify-content: space-between;
+    font-size: 15px;
+}
+.cancel{
+    font-size: 1.5em;
+    padding-top: 8px;
+    margin: 2px;
+} .cancel:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+.todo{
+    margin: 4px 8px;
+    font-weight: bold;
+}
+.span{
+    margin: 0px 12px;
+} .span:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+.class4{
+    border: 1px lightgray;
+    border-radius: 4px;
+    background-color: white;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+} .class4:hover{
+    opacity: .75;
+}
+.pencil{
+    float: right;
+    display: none;
+}
+.class4:hover .pencil{
+    opacity: .75;
+    display: inline;
+}
+
+.add{
+    margin: 8px 0px 0px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}.add:hover{
+    cursor: pointer;
+    opacity: .75;
+} 
+
+.class5{
+    border: 1px lightgray;
+    border-radius: 4px;
+    background-color: white;
+    padding: 8px;
+    margin: 8px;
+}.class5:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+.class6{
+    border: 1px lightgray;
+    border-radius: 4px;
+    background-color: white;
+    padding: 8px;
+    margin: 8px;
+}
+#id2-2{
+
+    margin: 2px;
+    margin-top: 20px;
+    padding: 8px;
+    flex-basis: 210px;
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.btn:hover{opacity: .75;}
+.btn{
+    cursor: pointer; 
+    background-color: olive;
+    color: white;
+    width: fit-content;
+    display: inline-block;
+    margin: 8px;
+    padding: 8px; 
+    font-size: 1.2em; 
+    border-radius: 4px;
+    border: none;
+}
+#id4-1:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+
+
+
+.txtarea{
+    display: block;
+    padding: 4px;
+    border: none;
+    font-size: 1em;
+    resize: none;
+}
+
+textarea{
+outline: none;
+}
+
