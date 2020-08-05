@@ -4,92 +4,93 @@ body {
     background-attachment: fixed;
 }
 
-* {
-    box-sizing: border-box;
+header{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
-.fixed{
+nav{
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    padding: 8px 20px;
+    height: 60px;
     background-color: rgba( 64, 144, 172, 0.65 );
     color: white;
 }
 
-.list{
+ul{
     list-style: none;
-    display: inline-flex;
-    justify-content: flex-start;
-    margin: 0px;
-    margin-left: -38px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
 }
 
 .icon1{
-    border-radius: 2px;
-    border: 1px;
-    background-color: rgba( 64, 144, 172, 0.65 );
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding: 8px;
-    margin: 0px 4px;
-    margin-right: 6px;
-    width: fit-content;
-}
-.icon1:hover{
-    opacity: 0.75;
-    cursor: pointer;}
-.icon2{
+    margin: 4px;
     border-radius: 2px;
     border: 1px;
     background-color: rgba( 64, 144, 172, 0.65 );
-    padding: 4px;
-    padding-left: 6px;
-    padding-top: 8px;
-    margin-right: 6px;
-    width: max-content;
-}
-.icon2:hover{
+}.icon1:hover{
     opacity: 0.75;
     cursor: pointer;
 }
+
 input {
-    width: 120px;
-    padding: 4px 0.5em;
+    width: 80px;
     border: none;
     border-radius: 2px;
     outline: none;
     background-color: rgba( 64, 144, 172, 1 );
     font-size: 1.15em;
-    line-height: 1.4;
-    color: white;
-    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 4px;
 }
 input:focus{
     background-color: white;
 }
-
 .title{
-    
-    font-family: "Comic Sans", "Comic Sans MS", cursive;
-    font-size: 1.2em;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
+.title{
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
 .icon3{
     border-radius: 2px;
     border: 1px;
     background-color: rgba( 64, 144, 172, 0.65 );
     padding: 8px;
-    padding-bottom: 22px;
     margin: 4px;
-}
-.icons{
-    display: inline-flex;
-    justify-content: flex-end;
 }
 .icon3:hover{
     opacity: 0.75;
